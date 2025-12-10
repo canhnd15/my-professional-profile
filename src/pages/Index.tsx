@@ -12,8 +12,8 @@ const Index = () => {
       <main className="relative max-w-4xl mx-auto px-6">
         <HeroSection />
         <SkillsSection />
-        <ProjectsSection />
         <ExperienceSection />
+        <ProjectsSection />
         <AboutSection />
         
         {/* Footer */}
