@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import SkillsSection from "@/components/SkillsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import AboutSection from "@/components/AboutSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* Subtle background pattern */}
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent pointer-events-none" />
+      
+      <main className="relative max-w-4xl mx-auto px-6">
+        <HeroSection />
+        <SkillsSection />
+        <ExperienceSection />
+        <AboutSection />
+        
+        {/* Footer */}
+        <footer className="py-12 border-t border-border text-center">
+          <p className="font-mono text-sm text-muted-foreground">
+            © 2024 Nguyen Duc Canh. Ha Noi, Vietnam.
+          </p>
+        </footer>
+      </main>
     </div>
   );
 };
