@@ -70,7 +70,7 @@ const IntroduceSection = () => {
           <h2 className="text-2xl font-bold mb-6">Connect With Me</h2>
           <div className="flex gap-4">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/davidnguyen15/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all group"
@@ -79,7 +79,7 @@ const IntroduceSection = () => {
               <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/canhnd15" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all group"
@@ -88,7 +88,7 @@ const IntroduceSection = () => {
               <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a 
-              href="#" 
+              href="https://davidnguyenblog.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all group"

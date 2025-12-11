@@ -8,34 +8,45 @@ const AboutSection = () => {
         Background & <span className="text-gradient">Interests</span>
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        {/* Education */}
-        <div className="card-gradient p-6 rounded-xl border border-border animate-slide-up">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-primary/10 rounded-lg">
-              <GraduationCap className="w-5 h-5 text-primary" />
+      <div className="space-y-8">
+        {/* Education and Achievement - Stacked vertically in a single column */}
+        <div className="space-y-8">
+          {/* Education */}
+          <div className="card-gradient p-6 rounded-xl border border-border animate-slide-up">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <GraduationCap className="w-5 h-5 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold">Education</h3>
             </div>
-            <h3 className="text-lg font-bold">Education</h3>
+            <p className="text-foreground font-medium">Posts and Telecommunications Institute of Technology</p>
+            <p className="text-muted-foreground text-sm font-mono">Sep 2017 - May 2022</p>
           </div>
-          <p className="text-foreground font-medium">Posts and Telecommunications Institute of Technology</p>
-          <p className="text-muted-foreground text-sm font-mono">Sep 2017 - May 2022</p>
+
+          {/* Achievement - Directly under Education */}
+          <div className="card-gradient p-6 rounded-xl border border-border animate-slide-up" style={{ animationDelay: '0.1s' }}>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <Award className="w-5 h-5 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold">Achievement</h3>
+            </div>
+            <div className="space-y-3">
+              <p className="text-foreground">
+                <span className="text-primary font-medium">1st Prize</span> in IT industry writing competition on ITviec platform
+              </p>
+              <p className="text-foreground">
+                <span className="text-primary font-medium">MVP (Most Valued Person)</span> at Newwave Solutions - June 2025
+              </p>
+              <p className="text-foreground">
+                <span className="text-primary font-medium">2nd Place</span> in Hackathon AI competition at Newwave Solutions
+              </p>
+            </div>
+          </div>
         </div>
 
-        {/* Achievement */}
-        <div className="card-gradient p-6 rounded-xl border border-border animate-slide-up" style={{ animationDelay: '0.1s' }}>
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-primary/10 rounded-lg">
-              <Award className="w-5 h-5 text-primary" />
-            </div>
-            <h3 className="text-lg font-bold">Achievement</h3>
-          </div>
-          <p className="text-foreground">
-            <span className="text-primary font-medium">1st Prize</span> in IT industry writing competition on ITviec platform
-          </p>
-        </div>
-
-        {/* Interests */}
-        <div className="md:col-span-2 card-gradient p-6 rounded-xl border border-border animate-slide-up" style={{ animationDelay: '0.2s' }}>
+        {/* Interests - Full Width */}
+        <div className="card-gradient p-6 rounded-xl border border-border animate-slide-up" style={{ animationDelay: '0.2s' }}>
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-primary/10 rounded-lg">
               <BookOpen className="w-5 h-5 text-primary" />

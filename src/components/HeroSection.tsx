@@ -2,7 +2,7 @@ import { Mail, Phone, Linkedin, Github, BookOpen } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center py-20">
+    <section className="min-h-screen flex flex-col justify-center items-center py-20 pt-32">
       <div className="animate-slide-up text-center">
         <p className="font-mono text-primary text-sm mb-4">Hello, I'm</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
@@ -31,7 +31,7 @@ const HeroSection = () => {
 
         <div className="flex gap-4 justify-center">
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/davidnguyen15/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all"
@@ -40,7 +40,7 @@ const HeroSection = () => {
             <Linkedin className="w-5 h-5" />
           </a>
           <a 
-            href="https://github.com" 
+            href="https://github.com/canhnd15" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all"
@@ -49,7 +49,7 @@ const HeroSection = () => {
             <Github className="w-5 h-5" />
           </a>
           <a 
-            href="#" 
+            href="https://davidnguyenblog.vercel.app/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-secondary rounded-lg border border-border hover:border-primary hover:bg-primary/10 transition-all"

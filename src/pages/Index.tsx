@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
@@ -9,6 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Subtle background pattern */}
       <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent pointer-events-none" />
+      <Navigation />
       <main className="relative">
         <HeroSection />
         <div className="max-w-4xl mx-auto px-6">
