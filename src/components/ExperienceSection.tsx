@@ -48,8 +48,8 @@ const experiences = [
 const ExperienceSection = () => {
   return (
     <section className="py-20" id="experience">
-      <p className="section-title">// Work Experience</p>
-      <h2 className="text-3xl md:text-4xl font-bold mb-12">
+      <p className="section-title text-center">// Work Experience</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         Professional <span className="text-gradient">Journey</span>
       </h2>
 

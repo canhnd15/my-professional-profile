@@ -35,8 +35,8 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section className="py-20" id="projects">
-      <p className="section-title">// Personal Projects</p>
-      <h2 className="text-3xl md:text-4xl font-bold mb-12">
+      <p className="section-title text-center">// Personal Projects</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         Things I've <span className="text-gradient">Built</span>
       </h2>
 

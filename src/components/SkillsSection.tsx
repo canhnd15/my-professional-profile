@@ -23,8 +23,8 @@ const skills = {
 const SkillsSection = () => {
   return (
     <section className="py-20" id="skills">
-      <p className="section-title">// Technical Skills</p>
-      <h2 className="text-3xl md:text-4xl font-bold mb-12">
+      <p className="section-title text-center">// Technical Skills</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         Areas of <span className="text-gradient">Expertise</span>
       </h2>
       

@@ -3,8 +3,8 @@ import { GraduationCap, Award, BookOpen } from "lucide-react";
 const AboutSection = () => {
   return (
     <section className="py-20" id="about">
-      <p className="section-title">// About Me</p>
-      <h2 className="text-3xl md:text-4xl font-bold mb-12">
+      <p className="section-title text-center">// About Me</p>
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         Background & <span className="text-gradient">Interests</span>
       </h2>
 
