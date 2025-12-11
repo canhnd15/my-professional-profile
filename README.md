@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# Professional Profile
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/cfe0b2cd-ca3e-46fa-8eff-eb3cc676193a
+This is a professional portfolio website built with modern web technologies.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/cfe0b2cd-ca3e-46fa-8eff-eb3cc676193a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +56,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/cfe0b2cd-ca3e-46fa-8eff-eb3cc676193a) and click on Share -> Publish.
+You can deploy this project to any static hosting service such as:
 
-## Can I connect a custom domain to my Lovable project?
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
+- Any other static hosting provider
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Simply build the project using `npm run build` and deploy the `dist` folder to your hosting provider.

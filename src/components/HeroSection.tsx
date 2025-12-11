@@ -2,17 +2,17 @@ import { Mail, Phone, Linkedin, Github, BookOpen } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-[70vh] flex flex-col justify-center py-20">
-      <div className="animate-slide-up">
+    <section className="min-h-screen flex flex-col justify-center items-center py-20">
+      <div className="animate-slide-up text-center">
         <p className="font-mono text-primary text-sm mb-4">Hello, I'm</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
           Nguyen Duc <span className="text-gradient">Canh</span>
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
+        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Software Engineer specializing in <span className="text-foreground">Java</span> & <span className="text-foreground">Backend Development</span> with expertise in building scalable payment systems and enterprise applications.
         </p>
         
-        <div className="flex flex-wrap gap-4 mb-8">
+        <div className="flex flex-wrap gap-4 mb-8 justify-center">
           <a 
             href="mailto:canhnd15@gmail.com" 
             className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-lg border border-border hover:border-primary transition-colors"
@@ -29,7 +29,7 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 justify-center">
           <a 
             href="https://linkedin.com" 
             target="_blank" 
